@@ -2,6 +2,24 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+Following the input received, the program prints the following details:
+
+Most popular month
+Most popular day
+Most popular hour
+Most popular start station
+Most popular end station
+Most popular combination of start and end stations
+Total trip duration
+Average trip duration
+Types of users by number
+Types of users by gender (if available)
+The oldest user (if available)
+The youngest user (if available)
+The most common birth year amongst users (if available)
+"""
+
 #Creating a dictionary containing the data sources for the three cities
 CITY_DATA = {'chicago': 'chicago.csv', 'Chicago': 'chicago.csv',
              'New York City': 'new_york_city.csv', 'New york city': 'new_york_city.csv',
