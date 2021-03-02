@@ -2,6 +2,14 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+Project Data:
+chicago.csv - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
+new_york_city.csv - Dataset containing all bikeshare information for the city of New York provided by Udacity.
+washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year'
+data.
+"""
+
 #Creating a dictionary containing the data sources for the three cities
 CITY_DATA = {'chicago': 'chicago.csv', 'Chicago': 'chicago.csv',
              'New York City': 'new_york_city.csv', 'New york city': 'new_york_city.csv',
