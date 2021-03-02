@@ -18,6 +18,7 @@ Types of users by gender (if available)
 The oldest user (if available)
 The youngest user (if available)
 The most common birth year amongst users (if available)
+
 """
 
 #Creating a dictionary containing the data sources for the three cities
